@@ -1,0 +1,550 @@
+{
+  "nodes": [
+    {
+      "id": "bridge_alpha",
+      "name": "River Bridge Alpha",
+      "category": "TRANSPORT",
+      "type": "Bridge",
+      "criticality": 94,
+      "population": 52000,
+      "service": true,
+      "condition": "Watch",
+      "capacity": "91% nominal",
+      "description": "River Bridge Alpha is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "bridge_beta",
+      "name": "River Bridge Beta",
+      "category": "TRANSPORT",
+      "type": "Bridge",
+      "criticality": 76,
+      "population": 31000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "73% nominal",
+      "description": "River Bridge Beta is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "north_arterial",
+      "name": "North Arterial",
+      "category": "TRANSPORT",
+      "type": "Road",
+      "criticality": 88,
+      "population": 67000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "85% nominal",
+      "description": "North Arterial is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "east_ring",
+      "name": "East Ring Road",
+      "category": "TRANSPORT",
+      "type": "Road",
+      "criticality": 71,
+      "population": 42000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "68% nominal",
+      "description": "East Ring Road is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "south_connector",
+      "name": "South Connector",
+      "category": "TRANSPORT",
+      "type": "Road",
+      "criticality": 66,
+      "population": 29000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "63% nominal",
+      "description": "South Connector is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "west_bypass",
+      "name": "West Bypass",
+      "category": "TRANSPORT",
+      "type": "Road",
+      "criticality": 73,
+      "population": 36000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "70% nominal",
+      "description": "West Bypass is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "central_junction",
+      "name": "Central Junction",
+      "category": "TRANSPORT",
+      "type": "Junction",
+      "criticality": 98,
+      "population": 82000,
+      "service": false,
+      "condition": "Watch",
+      "capacity": "95% nominal",
+      "description": "Central Junction is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "airport_connector",
+      "name": "Airport Connector",
+      "category": "TRANSPORT",
+      "type": "Road",
+      "criticality": 79,
+      "population": 45000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "76% nominal",
+      "description": "Airport Connector is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "metro_link",
+      "name": "Metro Link",
+      "category": "TRANSPORT",
+      "type": "Transit",
+      "criticality": 83,
+      "population": 71000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "80% nominal",
+      "description": "Metro Link is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "transit_terminal",
+      "name": "Central Transit Terminal",
+      "category": "TRANSPORT",
+      "type": "Transit Hub",
+      "criticality": 85,
+      "population": 93000,
+      "service": true,
+      "condition": "Operational",
+      "capacity": "82% nominal",
+      "description": "Central Transit Terminal is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "central_hospital",
+      "name": "Central Hospital",
+      "category": "EMERGENCY",
+      "type": "Hospital",
+      "criticality": 96,
+      "population": 48000,
+      "service": true,
+      "condition": "Watch",
+      "capacity": "93% nominal",
+      "description": "Central Hospital is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "district_hospital",
+      "name": "District Hospital",
+      "category": "EMERGENCY",
+      "type": "Hospital",
+      "criticality": 82,
+      "population": 27000,
+      "service": true,
+      "condition": "Operational",
+      "capacity": "79% nominal",
+      "description": "District Hospital is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "fire_hq",
+      "name": "Fire & Rescue HQ",
+      "category": "EMERGENCY",
+      "type": "Fire Station",
+      "criticality": 91,
+      "population": 110000,
+      "service": true,
+      "condition": "Watch",
+      "capacity": "88% nominal",
+      "description": "Fire & Rescue HQ is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "emergency_depot",
+      "name": "Emergency Logistics Depot",
+      "category": "EMERGENCY",
+      "type": "Depot",
+      "criticality": 77,
+      "population": 34000,
+      "service": true,
+      "condition": "Operational",
+      "capacity": "74% nominal",
+      "description": "Emergency Logistics Depot is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "power_a",
+      "name": "Power Substation A",
+      "category": "UTILITIES",
+      "type": "Substation",
+      "criticality": 95,
+      "population": 76000,
+      "service": true,
+      "condition": "Watch",
+      "capacity": "92% nominal",
+      "description": "Power Substation A is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "power_b",
+      "name": "Power Substation B",
+      "category": "UTILITIES",
+      "type": "Substation",
+      "criticality": 81,
+      "population": 59000,
+      "service": true,
+      "condition": "Operational",
+      "capacity": "78% nominal",
+      "description": "Power Substation B is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "water_treatment",
+      "name": "Water Treatment Plant",
+      "category": "UTILITIES",
+      "type": "Water",
+      "criticality": 92,
+      "population": 125000,
+      "service": true,
+      "condition": "Watch",
+      "capacity": "89% nominal",
+      "description": "Water Treatment Plant is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "water_pump",
+      "name": "Water Pump Station",
+      "category": "UTILITIES",
+      "type": "Pump",
+      "criticality": 74,
+      "population": 81000,
+      "service": true,
+      "condition": "Operational",
+      "capacity": "71% nominal",
+      "description": "Water Pump Station is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "gas_utility",
+      "name": "Gas Utility Node",
+      "category": "UTILITIES",
+      "type": "Gas",
+      "criticality": 69,
+      "population": 44000,
+      "service": true,
+      "condition": "Operational",
+      "capacity": "66% nominal",
+      "description": "Gas Utility Node is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "city_control",
+      "name": "City Control Center",
+      "category": "CONTROL",
+      "type": "Control",
+      "criticality": 90,
+      "population": 125000,
+      "service": true,
+      "condition": "Watch",
+      "capacity": "87% nominal",
+      "description": "City Control Center is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "data_exchange",
+      "name": "Civic Data Exchange",
+      "category": "CONTROL",
+      "type": "Data",
+      "criticality": 87,
+      "population": 125000,
+      "service": true,
+      "condition": "Operational",
+      "capacity": "84% nominal",
+      "description": "Civic Data Exchange is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "logistics_hub",
+      "name": "Regional Logistics Hub",
+      "category": "LOGISTICS",
+      "type": "Logistics",
+      "criticality": 78,
+      "population": 66000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "75% nominal",
+      "description": "Regional Logistics Hub is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "food_distribution",
+      "name": "Food Distribution Center",
+      "category": "LOGISTICS",
+      "type": "Distribution",
+      "criticality": 72,
+      "population": 54000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "69% nominal",
+      "description": "Food Distribution Center is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "population_north",
+      "name": "North Population Zone",
+      "category": "POPULATION",
+      "type": "Population",
+      "criticality": 61,
+      "population": 38000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "58% nominal",
+      "description": "North Population Zone is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "population_central",
+      "name": "Central Population Zone",
+      "category": "POPULATION",
+      "type": "Population",
+      "criticality": 68,
+      "population": 62000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "65% nominal",
+      "description": "Central Population Zone is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "population_east",
+      "name": "East Population Zone",
+      "category": "POPULATION",
+      "type": "Population",
+      "criticality": 58,
+      "population": 44000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "55% nominal",
+      "description": "East Population Zone is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "population_south",
+      "name": "South Population Zone",
+      "category": "POPULATION",
+      "type": "Population",
+      "criticality": 55,
+      "population": 33000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "52% nominal",
+      "description": "South Population Zone is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "industrial_zone",
+      "name": "Industrial Zone",
+      "category": "ECONOMIC",
+      "type": "Industry",
+      "criticality": 64,
+      "population": 28000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "61% nominal",
+      "description": "Industrial Zone is an interconnected infrastructure asset whose disruption may affect dependent services."
+    },
+    {
+      "id": "university_zone",
+      "name": "University District",
+      "category": "COMMUNITY",
+      "type": "Education",
+      "criticality": 60,
+      "population": 24000,
+      "service": false,
+      "condition": "Operational",
+      "capacity": "57% nominal",
+      "description": "University District is an interconnected infrastructure asset whose disruption may affect dependent services."
+    }
+  ],
+  "edges": [
+    {
+      "source": "bridge_alpha",
+      "target": "central_junction"
+    },
+    {
+      "source": "bridge_alpha",
+      "target": "bridge_beta"
+    },
+    {
+      "source": "bridge_beta",
+      "target": "north_arterial"
+    },
+    {
+      "source": "north_arterial",
+      "target": "central_junction"
+    },
+    {
+      "source": "north_arterial",
+      "target": "population_north"
+    },
+    {
+      "source": "north_arterial",
+      "target": "east_ring"
+    },
+    {
+      "source": "east_ring",
+      "target": "district_hospital"
+    },
+    {
+      "source": "east_ring",
+      "target": "power_b"
+    },
+    {
+      "source": "east_ring",
+      "target": "population_east"
+    },
+    {
+      "source": "central_junction",
+      "target": "south_connector"
+    },
+    {
+      "source": "central_junction",
+      "target": "west_bypass"
+    },
+    {
+      "source": "central_junction",
+      "target": "metro_link"
+    },
+    {
+      "source": "central_junction",
+      "target": "central_hospital"
+    },
+    {
+      "source": "central_junction",
+      "target": "fire_hq"
+    },
+    {
+      "source": "central_junction",
+      "target": "city_control"
+    },
+    {
+      "source": "south_connector",
+      "target": "population_south"
+    },
+    {
+      "source": "south_connector",
+      "target": "power_b"
+    },
+    {
+      "source": "west_bypass",
+      "target": "logistics_hub"
+    },
+    {
+      "source": "west_bypass",
+      "target": "food_distribution"
+    },
+    {
+      "source": "airport_connector",
+      "target": "east_ring"
+    },
+    {
+      "source": "airport_connector",
+      "target": "logistics_hub"
+    },
+    {
+      "source": "metro_link",
+      "target": "transit_terminal"
+    },
+    {
+      "source": "metro_link",
+      "target": "university_zone"
+    },
+    {
+      "source": "transit_terminal",
+      "target": "population_central"
+    },
+    {
+      "source": "central_hospital",
+      "target": "power_a"
+    },
+    {
+      "source": "central_hospital",
+      "target": "water_treatment"
+    },
+    {
+      "source": "district_hospital",
+      "target": "power_b"
+    },
+    {
+      "source": "district_hospital",
+      "target": "water_pump"
+    },
+    {
+      "source": "fire_hq",
+      "target": "emergency_depot"
+    },
+    {
+      "source": "fire_hq",
+      "target": "city_control"
+    },
+    {
+      "source": "emergency_depot",
+      "target": "logistics_hub"
+    },
+    {
+      "source": "power_a",
+      "target": "power_b"
+    },
+    {
+      "source": "power_a",
+      "target": "city_control"
+    },
+    {
+      "source": "power_b",
+      "target": "water_pump"
+    },
+    {
+      "source": "water_treatment",
+      "target": "water_pump"
+    },
+    {
+      "source": "water_treatment",
+      "target": "population_central"
+    },
+    {
+      "source": "water_pump",
+      "target": "population_south"
+    },
+    {
+      "source": "gas_utility",
+      "target": "industrial_zone"
+    },
+    {
+      "source": "gas_utility",
+      "target": "city_control"
+    },
+    {
+      "source": "city_control",
+      "target": "data_exchange"
+    },
+    {
+      "source": "data_exchange",
+      "target": "logistics_hub"
+    },
+    {
+      "source": "data_exchange",
+      "target": "university_zone"
+    },
+    {
+      "source": "logistics_hub",
+      "target": "industrial_zone"
+    },
+    {
+      "source": "food_distribution",
+      "target": "population_central"
+    },
+    {
+      "source": "food_distribution",
+      "target": "population_south"
+    },
+    {
+      "source": "population_north",
+      "target": "population_central"
+    },
+    {
+      "source": "population_central",
+      "target": "population_east"
+    },
+    {
+      "source": "population_central",
+      "target": "population_south"
+    },
+    {
+      "source": "university_zone",
+      "target": "population_central"
+    }
+  ]
+}
